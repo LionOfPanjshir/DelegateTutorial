@@ -1,4 +1,4 @@
-//
+ //
 //  ClassBVC.swift
 //  DelegateTutorial
 //
@@ -9,6 +9,9 @@
 import UIKit
 
 //MARK: step 1 Add Protocol here
+protocol ClassBVCDelegate: class {
+func changeBackgroundColor(_ color: UIColor?)
+}
 
 class ClassBVC: UIViewController {
     
